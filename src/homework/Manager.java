@@ -7,15 +7,16 @@ public class Manager implements Employee {
     private static double salary;
     private static int[] subordinates = new int[]{};
 
-    public Manager(String name, String surname, String department, double salary, int [] subordinates) {
+    public Manager(String name, String surname, String department, double salary, int[] subordinates) {
         this.name = name;
         this.surname = surname;
-        this.department=department;
+        this.department = department;
         this.salary = salary;
         this.subordinates = subordinates;
     }
 
-    public Manager(Manager manager) {
+
+    public Manager() {
 
     }
 
@@ -26,7 +27,7 @@ public class Manager implements Employee {
 
     @Override
     public void getFullName() {
-        System.out.println(name + " "+ surname);
+        System.out.println(name + " " + surname);
 
     }
 

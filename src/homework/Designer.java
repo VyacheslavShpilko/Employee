@@ -2,16 +2,16 @@ package homework;
 
 public class Designer implements Employee {
 
-    static String name;
+    private static String name;
     static String surname;
     private static String department;
     private static double salary;
     private static String designSpecialization;
 
-    public Designer(String name, String surname, String department, double salary,String designSpecialization) {
+    public Designer(String name, String surname, String department, double salary, String designSpecialization) {
         this.name = name;
         this.surname = surname;
-        this.department=department;
+        this.department = department;
         this.salary = salary;
         this.designSpecialization = designSpecialization;
 

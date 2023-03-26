@@ -11,12 +11,13 @@ public class Developer implements Employee {
     public Developer(String name, String surname, String department, double salary, String programmingLanguage) {
         this.name = name;
         this.surname = surname;
-        this.department=department;
+        this.department = department;
         this.salary = salary;
         this.programmingLanguage = programmingLanguage;
     }
 
-    public Developer(Developer developer) {
+
+    public Developer() {
 
     }
 
